@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.debut{
+    background-color: rgb(0, 118, 104);
+    border-bottom: 2px solid  rgba(15, 20, 20, 0.295);
+
+    
+   
+}
+.cc-navbar{
+    background-color: rgb(0, 131, 116);
+}
+.drop:hover{
+color: rgb(0, 131, 116);
+}
+/* .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.cont1{
+    background-color: rgb(0, 131, 116);
+    margin-top: 50px;
+}
+ /* sec1  partie gauche */
+ .outline-custom  span {
+    color: white;
+    font-size: 18px;
+
+}
+.play{
+    color:rgb(166, 241, 225) ;
+    font-size: 26px;
+}
+
+.play:hover {
+    color: aliceblue;
+
+}
+
+ .btn-custom {
+    width: 30vh;
+    height: 60px;
+    background-color: rgba(9, 196, 171, 0.904);
+    border: 2px solid  rgb(166, 241, 225);
+    box-shadow: 0px 0px 5px rgb(34, 153, 143);
+}
+.outline-custom {
+    text-decoration: none;
+}
+
+.btn-custom:hover {
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    border: 3px solid  rgb(5, 158, 125);
+}
+    
+
+/* sec1 CONTAINER2 */
+.service-card {
+    background-color: rgb(0, 131, 116);
+    color: white;
+    border-radius: 10px;
+    margin:  30px auto 0;
+    width: 40vh;
+    height: 30vh;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow :0.3s;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0,0, 10px rgb(2, 122, 96); */
+    /* margin-top: -3rem; */
+}
+
+.service-card:hover {
+
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    
+    background-color: #03918e;
+}
+
+.service-card i {
+    font-size: 40px;
+}
+.cont2 {
+    margin-top: -150px;
+}
+
+
+ /* sec2  */
+.image1{
+    height: 65vh;
+    width: 85vh;
+}
+.bord{
+    height: 5px;
+    width: 60px;
+    background-color: rgb(0, 131, 116);
+    border-top: 1 px solid  rgb(4, 185, 176);
+    border-radius: 5px;
+    margin: auto;
+}
+.valide{
+    color:rgb(0, 131, 116);
+    font-size: 24px;
+} 
+.icon-play{
+    color: rgb(0, 131, 116);
+    pa-top: -10vh;
+}
+.logo{
+    height: 70px;
+    width:90px ;
+}
+.client{
+    width: 100px;
+    height:40px ;
+}
+/* sec3 */
+.image-stats{
+    width: 60vh;
+}
+.icon-stats{
+    font-size: 40px;
+}
+.chiffre{
+    font-size: 36px;
+}
+
+.image-font{
+    background-image: url(Images/cta-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.contenu{
+    height: 400px;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.bonton{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+     border: 2px solid white; 
+    border-radius: 5px;
+}
+/* sec4 */
+.icon-service{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(228, 225, 221);
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.bord-title{
+     height: 6px;
+        width: 20vh;  
+        background-color:rgb(233, 227, 227);
+        border-radius: 5px;
+        margin: auto;  
+        cursor: pointer;
+}
+.bord-title:hover{
+    background-color: #16847E;
+}
+.icon-service:hover{
+    background-color: #6be6df;
+}
+/* sec6 */
+.nav-item a:hover{
+    color: #03918e;
+}
+.nav-item a{
+    font-size: 18px;
+    color: rgb(48, 51, 51);
+}
+
+.active{
+    color: #03918e;
+}
+.image-sec6{
+    cursor: pointer;
+}
+.image-sec6:hover{
+     overflow: hidden;
+    transform: scale(1.05);
+}
+.accordion-header {
+    font-size: 32px;
+}
+
+/* sec7 */
+.icon-social a{
+    display:inline-flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 2rem;
+    height: 2rem;
+    background-color:transparent;
+    border: 1px solid #868383;
+    border-radius: 50%;
+    font-size: 16px;
+    text-decoration: none;
+}
+/* SEC8 */
+.image-rond{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+/* SEC9 */
+.barre-blanc {
+
+    border-radius: 15px;
+    height: 100vh;
+    text-align: center;  
+}
+.card-text{
+    font-size: 24px;
+}
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #05b698;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+.icon-circle i {
+    font-size: 35px;
+    color: #ecf3f3;
+}
+.vert {
+    font-size: 30px;
+    font-weight: bold;
+    color: #03918e;
+}
+.vert small {
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+}
+.list {
+    list-style: none;
+    /* padding: 0; */
+}.list li {
+    font-size: 18px;
+    margin: 10px 0;
+} 
+.list i {
+    color: #03918e;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.text{
+    font-size: 28px;
+}
+
+.barre{
+    height: 115Vh;
+    border: 3px solid #03918e;
+    border-radius: 15px;
+    text-align: center;
+}
+/* sec formulaire */
+.contact-card {
+    background: #089795;
+    border: 2px solid rgb(95, 143, 145);
+    color: white;
+    width: 50vh;
+    height: 20vh;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin:  0 auto 20px;
+}
+.contact-card i {
+    font-size: 18px;
+    background-color: #036d68d7;
+    display:inline-flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: 0,0,15px rgb(50, 51, 51);
+}
+.contact-card i:hover{
+    background-color: aliceblue;
+    color: #03817b;
+}
+.font{
+    background-color: #03817b;
+}
+.icon-contact{
+ margin-top: -40px;
+ 
+   
+}
+
+
+/* footer */
+.footer{
+    margin-top: 30px;
+    background-color:rgb(0, 131, 116);;
+}
+.icon-footer a{
+    display:inline-flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 2rem;
+    height: 2rem;
+    background-color:transparent;
+    border: 1px solid #d6d2d2;
+    color: #ecf3f3;
+    border-radius: 50%;
+    font-size: 16px;
+    text-decoration: none;}
+ul li{
+    list-style-type: none;
+}
+.contact-card {
+    background: #03918e;
+    border: 2px solid rgb(95, 143, 145);
+    color: white;
+    width: 50vh;
+    height: 20vh;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin:  0 auto 20px;
+}
+.contact-card i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.trait{
+    border-top: 1px solid rgb(253, 250, 250);
+    width:100%;
+}
+
+@media screen and (max-width: 1024px){
+    /* Image container */
+
+    .image-cont1{
+        flex-wrap: wrap;
+    }
+    .icon-debut{
+        visibility: hidden;
+    }
+}
+
+
