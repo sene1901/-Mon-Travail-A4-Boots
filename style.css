@@ -150,7 +150,7 @@ color: rgb(0, 131, 116);
     width: 200px;
     height: 50px;
     background-color: transparent;
-     border: 2px solid white; 
+    border: 2px solid white; 
     border-radius: 5px;
 }
 /* sec4 */
@@ -160,7 +160,7 @@ color: rgb(0, 131, 116);
     border-radius: 50%;
     background-color: rgb(228, 225, 221);
     cursor: pointer;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 
 }
 
@@ -169,7 +169,7 @@ color: rgb(0, 131, 116);
         width: 20vh;  
         background-color:rgb(233, 227, 227);
         border-radius: 5px;
-        margin: auto;  
+        /* margin: auto;   */
         cursor: pointer;
 }
 .bord-title:hover{
@@ -177,6 +177,10 @@ color: rgb(0, 131, 116);
 }
 .icon-service:hover{
     background-color: #6be6df;
+}
+/* sec5 */
+.card-caro{
+    width: 25rem;
 }
 /* sec6 */
 .nav-item a:hover{
