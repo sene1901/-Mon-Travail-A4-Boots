@@ -110,7 +110,6 @@ color: rgb(0, 131, 116);
 } 
 .icon-play{
     color: rgb(0, 131, 116);
-    pa-top: -10vh;
 }
 .logo{
     height: 70px;
@@ -222,7 +221,7 @@ color: rgb(0, 131, 116);
     font-size: 16px;
     text-decoration: none;
 }
-/* SEC8 */
+
 
 /* SEC9 */
 .barre-blanc {
@@ -266,7 +265,6 @@ color: rgb(0, 131, 116);
 }
 .list {
     list-style: none;
-    /* padding: 0; */
 }.list li {
     font-size: 18px;
     margin: 10px 0;
@@ -286,13 +284,12 @@ color: rgb(0, 131, 116);
     border-radius: 15px;
     text-align: center;
 }
-/* sec formulaire */
+/* sec formulaire contact */
 .contact-card {
     background: #089795;
     border: 2px solid rgb(95, 143, 145);
     color: white;
-    /* width: 50vh; */
-    /* height: 20vh; */
+    
     border-radius: 10px;
     margin-bottom: 15px;
     margin:  0 auto 20px;
